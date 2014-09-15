@@ -1,0 +1,49 @@
+=== TinyChat Room Spy ===
+
+Contributors: ruddernation
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FFAC7FBEBH6JE
+Tags: tinychat-roomspy, Tinychat, chat, room spy, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
+Requires at least: 3.6.0
+Tested up to: 4.0
+Stable tag: 1.0.1
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+== Description ==
+
+Allows you to check who is in a TinyChat room and who is on Video/Audio.
+
+== Installation ==
+
+This will automatically create the page and install the short code with link *domain name/roomspy*, If it does not then please read below.
+
+Simply use shortcode [room_spy_page] in a page and publish.
+
+== Screenshots ==
+
+* https://www.ruddernation.com/downloads/wordpress-plugins/tinychat-roomspy/screenshot-1.jpg
+* https://www.ruddernation.com/downloads/wordpress-plugins/tinychat-roomspy/screenshot-2.jpg
+
+== Notes ==
+
+This is full screen video chat that is used on TinyChat, This will use your domain name as the chatroom name,
+This way it'll never conflict with other rooms on TinyChat.
+
+== Frequently Asked Questions ==
+
+* Q. Can I use this if I'm not logged in?
+* A. Yes!.
+
+* Q. How do I add it to my blog/website?
+* A. Just go to the backend and on appearance select menus, From there you can add your page, It'll be *roomspy* by default.
+
+== Upgrade Notice ==
+
+= 1.0.1 =
+* first start, This will auto create the page for you and insert the shortcode, Just type in the Tinychat room name in the search box and click *Spy*,
+It'll grab the images and selected data for who is in the room, number of users and admin and how many are using video/audio.
+
+== Social Sites ==
+* Twitter - https://twitter.com/RUDD3RN4T10N
+* Facebook - https://www.facebook.com/ruddernationdotcom
+* Github - https://github.com/ruddernation

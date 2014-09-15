@@ -1,7 +1,7 @@
 <?php
 /*
 * Plugin Name: tinychat-roomspy
-* Plugin URI: https://www.ruddernation.com/downloads/wordpress-plugins/tinychat-roomspy/tinychat-roomspy.zip
+* Plugin URI: https://wordpress.org/plugins/tinychat-roomspy/
 * Author: RN Designs
 * Author URI: http://profiles.wordpress.org/ruddernation
 * Description: Allows you to check who is in a TinyChat room and who is on Video/Audio.

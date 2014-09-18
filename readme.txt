@@ -15,7 +15,7 @@ Allows you to check who is in a TinyChat room and who is on Video/Audio.
 
 == Installation ==
 
-This will automatically create the page and install the short code with link *domain name/roomspy*, If it does not then please read below.
+This will automatically create the page and install the short code with link domain name/roomspy, If it does not then please read below.
 
 Simply use shortcode [room_spy_page] in a page and publish.
 
@@ -45,7 +45,7 @@ It'll grab the images and selected data for who is in the room, number of users 
 
 = 1.0.2 =
 * Update to the CSS code as wp-image was overwriting the main height of the image, If this creates a problem then you can remove 
-*.entry-content img,img[class*=wp-image-]{height:190px;}* from line 62.
+.entry-content img,img[class=wp-image-]{height:190px;} from line 62.
 
 == Social Sites ==
 * Twitter - https://twitter.com/RUDD3RN4T10N

@@ -5,7 +5,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: tinychat-roomspy, Tinychat, chat, room spy, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
 Requires at least: 3.6.0
 Tested up to: 4.0
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -42,6 +42,10 @@ and copy the *Roomname* part and paste in to the search bar and it'll show you i
 = 1.0.1 =
 * first start, This will auto create the page for you and insert the shortcode, Just type in the Tinychat room name in the search box and click *Spy*,
 It'll grab the images and selected data for who is in the room, number of users and admin and how many are using video/audio.
+
+= 1.0.2 =
+* Update to the CSS code as wp-image was overwriting the main height of the image, If this creates a problem then you can remove 
+*.entry-content img,img[class*=wp-image-]{height:190px;}* from line 62.
 
 == Social Sites ==
 * Twitter - https://twitter.com/RUDD3RN4T10N

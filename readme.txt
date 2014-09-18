@@ -26,8 +26,8 @@ Simply use shortcode [room_spy_page] in a page and publish.
 
 == Notes ==
 
-This is to view who is in a TinyChat room and who is on video/audio, If you need to find the room name then visit the room on http://tinychat.com/*Roomname* 
-and copy the *Roomname* part and paste in to the search bar and it'll show you images of who's in the room.
+This is to view who is in a TinyChat room and who is on video/audio, If you need to find the room name then visit the room on http://tinychat.com/Roomname 
+and copy the Roomname part and paste in to the search bar and it'll show you images of who's in the room.
 
 == Frequently Asked Questions ==
 

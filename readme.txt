@@ -35,7 +35,7 @@ and copy the Roomname part and paste in to the search bar and it'll show you ima
 * A. Yes!.
 
 * Q. How do I add it to my blog/website?
-* A. Just go to the backend and on appearance select menus, From there you can add your page, It'll be *roomspy* by default.
+* A. Just go to the backend and on appearance select menus, From there you can add your page, It'll be roomspy by default.
 
 == Upgrade Notice ==
 

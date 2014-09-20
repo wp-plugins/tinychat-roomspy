@@ -47,6 +47,9 @@ It'll grab the images and selected data for who is in the room, number of users 
 * Update to the CSS code as wp-image was overwriting the main height of the image, If this creates a problem then you can remove 
 .entry-content img,img[class=wp-image-]{height:190px;} from line 62.
 
+= 1.0.3 =
+* Fix for plugin error.
+
 == Social Sites ==
 * Twitter - https://twitter.com/RUDD3RN4T10N
 * Facebook - https://www.facebook.com/ruddernationdotcom

@@ -2,7 +2,7 @@
 /*
 * Plugin Name: tinychat-roomspy
 * Plugin URI: https://wordpress.org/plugins/tinychat-roomspy/
-* Author: RN Designs
+* Author: Ruddernation Designs
 * Author URI: http://profiles.wordpress.org/ruddernation
 * Description: Allows you to check who is in a TinyChat room and who is on Video/Audio.
 * Requires at least: WordPress 3.6.0, BuddyPress 1.8.1

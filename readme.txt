@@ -21,8 +21,8 @@ Simply use shortcode [room_spy_page] in a page and publish.
 
 == Screenshots ==
 
-* https://www.ruddernation.com/downloads/wordpress-plugins/tinychat-roomspy/screenshot-1.jpg
-* https://www.ruddernation.com/downloads/wordpress-plugins/tinychat-roomspy/screenshot-2.jpg
+* This is the search bar, Enter the name and click "Spy".
+* Once you clicked spy it will locate the room and pull the images and names of the users in the chat room, It'll tell you number of admin/chatters and on camera.
 
 == Notes ==
 

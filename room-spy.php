@@ -12,7 +12,7 @@
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
 * Date: 27th September 2014
 */
-define('COMPARE_VERSION', '1.0.3');
+define('COMPARE_VERSION', '1.0.4');
 
 register_activation_hook(__FILE__, 'room_spy_install');
 

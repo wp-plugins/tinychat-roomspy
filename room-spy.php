@@ -45,7 +45,6 @@ add_filter('the_content', 'wp_show_room_spy_page', 52);
 function wp_show_room_spy_page($content = '') {
 
 	if(preg_match("/\[room_spy_page\]/",$content)) {
-
 		wp_show_room_spy();
 
 		return "";
@@ -53,7 +52,6 @@ function wp_show_room_spy_page($content = '') {
 	return $content;
 }
 function wp_show_room_spy() {
-
 	if(!get_option('room_spy_enabled', 0)) {
 	}
 	$room = $_POST ['room']; 

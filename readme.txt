@@ -38,7 +38,7 @@ and copy the Roomname part and paste in to the search bar and it'll show you ima
 * Q. How do I add it to my blog/website?
 * A. Just go to the backend and on appearance select menus, From there you can add your page, It'll be roomspy by default.
 
-== Upgrade Notice ==
+== Changelog ==
 
 = 1.0.1 =
 * first start, This will auto create the page for you and insert the shortcode, Just type in the Tinychat room name in the search box and click *Spy*,

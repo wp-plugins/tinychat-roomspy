@@ -6,13 +6,13 @@
 * Author URI: http://profiles.wordpress.org/ruddernation
 * Description: Allows you to check who is in a TinyChat room and who is on Video/Audio.
 * Requires at least: WordPress 3.6.0, BuddyPress 1.8.1
-* Tested up to: WordPress 4.0 / BuddyPress 2.0.1
-* Version: 1.0.4
+* Tested up to: WordPress 4.0 / BuddyPress 2.1.1
+* Version: 1.0.5
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
 * Date: 11th October 2014
 */
-define('COMPARE_VERSION', '1.0.4');
+define('COMPARE_VERSION', '1.0.5');
 register_activation_hook(__FILE__, 'room_spy_install');
 function room_spy_install() {
 

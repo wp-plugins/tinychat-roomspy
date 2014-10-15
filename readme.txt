@@ -12,8 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 == Description ==
 
 Allows you to check who is in a TinyChat room and who is on Video/Audio, This is very useful for checking who is in a room before you enter it,
-This has minimal css code so it should display fine on all themes and even devices,
-If this is not working as expected then please check http://tinychat.apigee.com/roomname as they have been down for sometime and all data is collected from there,
+This has minimal css code so it should display fine on all themes and even devices, If this is not working as expected then please check tinychat.apigee.com/roomname as they have been down for sometime and all data is collected from there,
 Or checkout my Twitter/Facebook page for details.
 
 == Installation ==

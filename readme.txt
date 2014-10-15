@@ -5,14 +5,16 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: tinychat-roomspy, tinychat, chat, room spy, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
 Requires at least: 3.6.0
 Tested up to: 4.0
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
 Allows you to check who is in a TinyChat room and who is on Video/Audio, This is very useful for checking who is in a room before you enter it,
-This has minimal css code so it should display fine on all themes and even devices.
+This has minimal css code so it should display fine on all themes and even devices,
+If this is not working as expected then please check http://tinychat.apigee.com/roomname as they have been down for sometime and all data is collected from there,
+Or checkout my Twitter/Facebook page for details.
 
 == Installation ==
 
@@ -50,6 +52,9 @@ It'll grab the images and selected data for who is in the room, number of users 
 
 = 1.0.3 =
 * Fix for plugin error.
+
+= 1.0.6 =
+* Removed PHP errors from displaying on websites to protect web masters, To check for errors then please check your error logs for correct error.
 
 == Social Sites ==
 * Facebook - https://www.facebook.com/ruddernationdotcom

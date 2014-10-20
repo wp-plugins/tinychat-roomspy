@@ -1,4 +1,4 @@
-=== TinyChat Room Spy (Discontinued) ===
+=== TinyChat Room Spy ===
 
 Contributors: ruddernation
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FFAC7FBEBH6JE
@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-This Plugin will not work due to TinyChat not using the Apigee data site, Hopefully that is temporary.
+Plugin is now back online, If it's ever down it could be due to the Apigee website, Check your error log for details,
 Allows you to check who is in a TinyChat room and who is on Video/Audio, This is very useful for checking who is in a room before you enter it,
 This has minimal css code so it should display fine on all themes and even devices, If this is not working as expected then please check http://tinychat.apigee.com/roomname as they have been down for sometime and all data is collected from there,
 Or checkout my Twitter/Facebook page for details.

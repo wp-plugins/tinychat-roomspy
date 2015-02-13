@@ -57,7 +57,5 @@ It'll grab the images and selected data for who is in the room, number of users 
 * Removed PHP errors from displaying on websites to protect web masters, To check for errors then please check your error logs for correct error.
 
 == Social Sites ==
-* Facebook - https://www.facebook.com/ruddernationdotcom
 * Github - https://github.com/ruddernation
 * WordPress - https://profiles.wordpress.org/ruddernation
-* Twitter - https://twitter.com/R_N_Designs

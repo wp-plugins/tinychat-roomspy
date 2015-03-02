@@ -15,7 +15,7 @@
 // Turn off all error reporting
 error_reporting(0);
 
-define('COMPARE_VERSION', '1.1.5');
+define('COMPARE_VERSION', '1.1.6');
 register_activation_hook(__FILE__, 'room_spy_install');
 function room_spy_install() {
 

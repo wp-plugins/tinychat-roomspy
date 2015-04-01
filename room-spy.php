@@ -10,7 +10,7 @@
 * Version: 1.1.8
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
-* Date: 01th April 2015
+* Date: 01st April 2015
 */
 // to turn off all error reporting when Apigee is down then remove the // next to error_reporting(0);
 //error_reporting(0);

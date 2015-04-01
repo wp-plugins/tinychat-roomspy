@@ -13,7 +13,7 @@
 * Date: 01st April 2015
 */
 // to turn off all error reporting when Apigee is down then remove the // next to error_reporting(0);
-//error_reporting(0);
+error_reporting(0);
 
 define('COMPARE_VERSION', '1.1.8');
 register_activation_hook(__FILE__, 'room_spy_install');

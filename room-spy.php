@@ -7,14 +7,13 @@
 * Description: Allows you to check who is in a TinyChat room and who is on Video/Audio.
 * Requires at least: WordPress 3.6.0, BuddyPress 1.8.1
 * Tested up to: WordPress 4.1 / BuddyPress 2.2.1
-* Version: 1.1.8
+* Version: 1.1.9
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
-* Date: 01st April 2015
+* Date: 06th April 2015
 */
 // to turn off all error reporting when Apigee is down then remove the // next to error_reporting(0);
-error_reporting(0);
-
+//error_reporting(0);
 define('COMPARE_VERSION', '1.1.8');
 register_activation_hook(__FILE__, 'room_spy_install');
 function room_spy_install() {
@@ -58,7 +57,7 @@ function wp_show_room_spy() {
 	$room = $_POST ['room']; 
 $username = $_POST ['username']; 
 	?>
-    <style>#chat,.chatimages{margin:2px 6px 15px;width:220px;height:190px;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;display:inline-block;text-decoration:none;font-size:17px;-webkit-border-radius:14px;-moz-border-radius:14px;border-radius:6px}input[type=text]{width:25%;}.entry-content img,img[class*=wp-image-]{height:190px;}</style>
+    <style>#chat,.chatimages{margin:2px 6px 15px;width:220px;height:190px;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;display:inline-block;text-decoration:none;font-size:17px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:4px}input[type=text]{width:25%;}.entry-content img,img[class*=wp-image-]{height:190px;}</style>
 <?php
 if(($room=='Room name')|($room=='')){}elseif(preg_match("/^[a-z0-9]{3,}/",$_POST['room'])){$room=preg_replace('/[^a-z0-9]/i','',$room);$room=preg_replace('/\s+/','',$room);$data=file_get_contents('http://tinychat.apigee.com/'.strtolower($room).'.xml');$rooms=new SimpleXMLElement($data,libxml_use_internal_errors(true));$array=json_decode(json_encode((array)simplexml_load_string($xml)),1);}?>
 <div><?php echo ' 

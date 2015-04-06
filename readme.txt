@@ -5,7 +5,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: tinychat-roomspy, tinychat, chat, room spy, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
 Requires at least: 3.6.0
 Tested up to: 4.1
-Stable tag: 1.1.8
+Stable tag: 1.1.9
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -57,5 +57,8 @@ It'll grab the images and selected data for who is in the room, number of users 
 * Removed PHP errors from displaying on websites to protect web masters, To check for errors then please check your error logs for correct error.
 
 == Social Sites ==
+* Facebook - https://www.facebook.com/rndtc
+* Twitter - https://twitter.com/R_N_Designs
 * Github - https://github.com/ruddernation
 * WordPress - https://profiles.wordpress.org/ruddernation
+* Skype - ruddernation.designs

@@ -57,7 +57,7 @@ It'll grab the images and selected data for who is in the room, number of users 
 * Removed PHP errors from displaying on websites to protect web masters, To check for errors then please check your error logs for correct error.
 
 = 1.2.0 =
-* I've re-added the code that removes error reporting at the top of the page as this will display the chat image even if the apigee website is down.
+* I've re-added the code that removes error reporting at the top of the page.
 
 == Social Sites ==
 * Facebook - https://www.facebook.com/rndtc

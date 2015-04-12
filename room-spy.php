@@ -10,7 +10,7 @@ error_reporting(0);?>
 * Description: Allows you to check who is in a TinyChat room and who is on Video/Audio.
 * Requires at least: WordPress 3.6.0, BuddyPress 1.8.1
 * Tested up to: WordPress 4.1.1 / BuddyPress 2.2.2
-* Version: 1.2.3
+* Version: 1.2.4
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
 * Date: 11th April 2015

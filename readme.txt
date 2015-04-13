@@ -56,6 +56,9 @@ It'll grab the images and selected data for who is in the room, number of users 
 = 1.2.0 =
 * I've re-added the code that removes error reporting at the top of the page.
 
+= 1.2.7 =
+* I've done a major update, If you want to continue to use this then you'll need to update as all previous versions will not work.
+
 == Social Sites ==
 * Facebook - https://www.facebook.com/rndtc
 * Twitter - https://twitter.com/R_N_Designs

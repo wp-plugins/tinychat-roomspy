@@ -63,8 +63,17 @@ It'll grab the images and selected data for who is in the room, number of users 
 * I've now optimised my PHP code and removed unnecessary code for increased speed and performance.
 
 == Social Sites ==
+
+* Website - https://www.ruddernation.com
+
+* Room Spy - https://www.tinychat-spy.com
+
 * Facebook - https://www.facebook.com/rndtc
+
 * Twitter - https://twitter.com/R_N_Designs
+
 * Github - https://github.com/ruddernation
+
 * WordPress - https://profiles.wordpress.org/ruddernation
+
 * Skype - ruddernation.designs

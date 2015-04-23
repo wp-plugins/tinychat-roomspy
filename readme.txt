@@ -4,8 +4,8 @@ Contributors: ruddernation
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FFAC7FBEBH6JE
 Tags: tinychat-roomspy, tinychat, chat, room spy, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
 Requires at least: 3.6.0
-Tested up to: 4.1.1
-Stable tag: 1.2.9
+Tested up to: 4.2
+Stable tag: 1.3.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 

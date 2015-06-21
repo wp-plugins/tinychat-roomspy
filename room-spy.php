@@ -1,6 +1,6 @@
 <?php
 /*
-* Plugin Name: TinyChat Room Spy
+* Plugin Name: TinyChat Room Spy - Only updated on Github 
 * Plugin URI: https://wordpress.org/plugins/tinychat-roomspy/
 * Author: Ruddernation Designs
 * Author URI: http://profiles.wordpress.org/ruddernation

@@ -70,7 +70,7 @@ It'll grab the images and selected data for who is in the room, number of users 
 
 * Facebook - https://www.facebook.com/rndtc
 
-* Twitter - https://twitter.com/R_N_Designs
+* Twitter - https://twitter.com/Rudder_Designs
 
 * Github - https://github.com/ruddernation
 

@@ -60,7 +60,7 @@ function wp_show_room_spy() {
 if (($room === 'Room')){}
 	elseif(preg_match("/^[a-z0-9]{3,}/", $_POST['room'])){
 	$room = preg_replace('/[^a-z0-9]/s', '',$room);
-	$room=(strlen($room) > 32) ? substr($room,0,32).'' : $room;
+	$room=(strlen($room) > 36) ? substr($room,0,36).'' : $room;
 	$room=htmlspecialchars($room,ENT_QUOTES, 'UTF-8');
 	$room=strip_tags($room);
 	$data = file_get_contents('http://api.tinychat.com/'.$room.'.xml');

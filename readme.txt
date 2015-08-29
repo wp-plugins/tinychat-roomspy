@@ -5,7 +5,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: tinychat-roomspy, tinychat, chat, room spy, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
 Requires at least: 3.6.0
 Tested up to: 4.3
-Stable tag: 1.3.4
+Stable tag: 1.3.5
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -62,8 +62,11 @@ It'll grab the images and selected data for who is in the room, number of users 
 = 1.2.8 =
 * I've now optimised my PHP code and removed unnecessary code for increased speed and performance.
 
-= 1.2.9 =
+= 1.3.4 =
 * Added extra security from XSS attacks, Also increased the string lenth to 36 characters as that is TinyChat's max limit, This will now work with uppercase letters.
+
+= 1.3.5 =
+* Updated all links to be secured using SSL so now all data is encryped between your server and TinyChat's server, Thats only if you use your own SSL(HTTPS).
 
 == Social Sites ==
 

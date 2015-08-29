@@ -7,12 +7,12 @@
 * Description: Allows you to check who is in a TinyChat room and who is on Video/Audio.
 * Requires at least: WordPress 3.6.0, BuddyPress 2.0
 * Tested up to: WordPress 4.3 / BuddyPress 2.3
-* Version: 1.3.3
+* Version: 1.3.4
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
-* Date: 28th August 2015
+* Date: 29th August 2015
 */
-define('COMPARE_VERSION', '1.3.2');
+define('COMPARE_VERSION', '1.3.3');
 register_activation_hook(__FILE__, 'room_spy_install');
 function room_spy_install() {
 
@@ -53,19 +53,20 @@ function wp_show_room_spy() {
 	if(!get_option('room_spy_enabled', 0)) {
 	}
 	?>
-    <style>#chat,.chatimages{margin:2px 6px 15px;width:220px;height:190px;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;display:inline-block;text-decoration:none;font-size:17px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:4px}input[type=text]{width:25%;}.entry-content img,img[class*=wp-image-]{height:190px;}.password{color:red;text-decoration:none}</style>
+    <style>#chat,.chatimages{margin:2px 6px 15px;width:220px;height:200px;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;display:inline-block;text-decoration:none;font-size:17px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:4px}input[type=text]{width:25%;}.entry-content img,img[class*=wp-image-]{height:190px;}.password{color:red;text-decoration:none}</style>
 <?php
 	$room = $_POST ['room']; 
 	$names = $_POST ['username'];
-if (($room === 'Room')){}
+if (($room === 'room')){}
 	elseif(preg_match("/^[a-z0-9]{3,}/", $_POST['room'])){
-	$room = preg_replace('/[^a-z0-9]/s', '',$room);
+	$room=preg_replace('/[^a-zA-Z0-9]/s', '',$room);
+	$room=strtolower($room);
 	$room=(strlen($room) > 36) ? substr($room,0,36).'' : $room;
 	$room=htmlspecialchars($room,ENT_QUOTES, 'UTF-8');
 	$room=strip_tags($room);
-	$data = file_get_contents('http://api.tinychat.com/'.$room.'.xml');
-	$rooms = new SimpleXMLElement($data,libxml_use_internal_errors(true));
-	$array = json_decode(json_encode((array)simplexml_load_string($xml)),1);}?>
+	$data=file_get_contents('http://api.tinychat.com/'.$room.'.xml');
+	$rooms=new SimpleXMLElement($data,libxml_use_internal_errors(true));
+	$array=json_decode(json_encode((array)simplexml_load_string($xml)),1);}?>
 <div><?php echo ' 
-<form method="post">Room Name: <input type="text" name="room" title="Just enter the name of the tinychat room and press spy." placeholder="Lowercase Letters!"/> <input type="submit" value="Spy" name="monachechat4"/>&nbsp;&bull;&nbsp;Admins: '.$rooms['mod_count'].'&nbsp;&bull;&nbsp;Chatters: '.$rooms['total_count'].'&nbsp;&bull;&nbsp;On Cam: '.$rooms['broadcaster_count'].'<a class="password" title="Password is required to enter the room"/>'.$rooms['error'].'</a>';if($room!=='Room name'){echo '</form>';}?> </div><br><?php
-if((preg_match("/^[a-z0-9]{3,}/",$_POST['room'])=='1')){$room=preg_replace('/[^a-z0-9]/s','',$room);$room=htmlspecialchars($room,ENT_QUOTES, 'UTF-8');if($room!=='Room name'){echo '<br><br>';{echo ' <br> '.$room.'<br>';$pic='http://upload.tinychat.com/pic/'.$room.'';$picture='<a href="http://www.ruddernation.net/'.urlencode($room).'" title="'.$room.'" target="_blank"><img src="'.$pic.'"class="chatimages"><br></a>';echo $picture;}echo '<br><br>';foreach($rooms->names as $username){echo '<div id="chat">'.$username.'<br>';$pic='http://upload.tinychat.com/i/'.$room.'-'.$username.'.jpg';$picture='<a href="http://www.ruddernation.net/'.$room.'" title="Hey! I&#39;m '.$username.', Click to come and chat with me." target="_blank"><img src="'.$pic.'"class="chatimages"></a><br></div>';echo $picture;}}}}?>
+<form method="post">Room Name: <input type="text" name="room" title="Just enter the name of the tinychat room and press spy." placeholder="Lowercase Letters!"/> <input type="submit" value="Spy" name="monachechat4"/>&nbsp;&bull;&nbsp;Admins: '.$rooms['mod_count'].'&nbsp;&bull;&nbsp;Chatters: '.$rooms['total_count'].'&nbsp;&bull;&nbsp;On Cam: '.$rooms['broadcaster_count'].'<a class="password" title="Password is required to enter the room"/>'.$rooms['error'].'</a>';if($room!=='room'){echo '</form>';}?> </div><br><?php
+if((preg_match("/^[a-zA-Z0-9]{3,}/",$_POST['room'])=='1')){$room=preg_replace('/[^a-zA-Z0-9]/s','',$room);$room=strtolower($room);$room=htmlspecialchars($room,ENT_QUOTES, 'UTF-8');$room=strip_tags($room);if($room!='room'){echo '<br><br>';{echo ' <br> '.$room.'<br>';$pic='http://upload.tinychat.com/pic/'.$room.'';$picture='<a href="http://www.ruddernation.net/'.urlencode($room).'" title="'.$room.'" target="_blank"><img src="'.$pic.'"class="chatimages"><br></a>';echo $picture;}echo '<br><br>';foreach($rooms->names as $username){echo '<div id="chat">'.$username.'<br>';$pic='http://upload.tinychat.com/i/'.$room.'-'.$username.'.jpg';$picture='<a href="http://www.ruddernation.net/'.$room.'" title="Hey! I&#39;m '.$username.', Click to come and chat with me." target="_blank"><img src="'.$pic.'"class="chatimages"></a><br></div>';echo $picture;}}}}?>
